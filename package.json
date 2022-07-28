@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "npm index",
-    "local-dev": "nodemon index",
+    "dev": "nodemon index",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -13,6 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "apollo-server": "^3.9.0",
+    "bcryptjs": "^2.4.3",
     "graphql": "^16.5.0",
     "mongoose": "^6.4.4"
   },
